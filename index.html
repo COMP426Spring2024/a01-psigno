@@ -15,20 +15,11 @@
     </header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#" data-bs-toggle="collapse" data-bs-target="#navbarNav">Mythology Hub</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="thor.html">Thor</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="greek-gods.html">Greek Gods</a>
-                    </li>
-                </ul>
-            </div>
+            <select class="form-select" onchange="location = this.value;">
+                <option value="index.html">Home</option>
+                <option value="thor.html">Thor</option>
+                <option value="greek-gods.html">Greek Gods</option>
+            </select>
         </div>
     </nav>
     <main>
@@ -75,7 +66,8 @@
                 </tbody>
             </table>
         </section>
-    </main>        
+    </main>
+    <a href="https://en.wikipedia.org/wiki/Greek_mythology" class="bottom-link ms-auto">Sources</a>        
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

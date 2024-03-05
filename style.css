@@ -103,3 +103,8 @@ section h2 {
     color: blue;
     text-decoration: underline;
 }
+.form-select:hover {
+    border-color: black;
+    border-radius: 5px;
+    
+}
